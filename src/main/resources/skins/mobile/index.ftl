@@ -124,7 +124,7 @@
 
     <div class="slogan">
         ${indexIntroLabel}&nbsp;
-        <a href="https://github.com/88250/symphony" target="_blank">
+        <a href="https://github.com/geosmart/symphony" target="_blank">
             <svg><use xlink:href="#github"></use></svg></a>
     </div>
     <#include "footer.ftl">

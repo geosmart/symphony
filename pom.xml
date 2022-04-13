@@ -115,11 +115,11 @@
 
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/88250/symphony/issues</url>
+        <url>https://github.com/geosmart/symphony/issues</url>
     </issueManagement>
 
     <scm>
-        <url>https://github.com/88250/symphony</url>
+        <url>https://github.com/geosmart/symphony</url>
     </scm>
 
     <dependencies>
@@ -205,11 +205,9 @@
         </dependency>
 
         <dependency>
-            <groupId>org.patchca</groupId>
+            <groupId>net.pusuo</groupId>
             <artifactId>patchca</artifactId>
             <version>0.5.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/src/main/resources/lib/net/pusuo/patchca-0.5.0.jar</systemPath>
         </dependency>
 
         <dependency>
@@ -364,6 +362,10 @@
                 <repository>
                     <id>aliyun</id>
                     <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+                </repository>
+                <repository>
+                    <id>SpringLibM</id>
+                    <url>https://repo.spring.io/libs-milestone</url>
                 </repository>
             </repositories>
 

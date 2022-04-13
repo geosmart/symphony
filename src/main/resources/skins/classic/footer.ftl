@@ -21,7 +21,7 @@
     <div class="wrapper">
         <div class="slogan">
         ${indexIntroLabel} &nbsp; &nbsp;
-            <a href="https://github.com/88250/symphony" target="_blank" class="tooltipped tooltipped-n"
+            <a href="https://github.com/geosmart/symphony" target="_blank" class="tooltipped tooltipped-n"
                aria-label="${siteCodeLabel}">
                 <svg class="icon-github">
                     <use xlink:href="#github"></use>
@@ -42,12 +42,8 @@
             <div class="fn-clear ft-smaller">
             ${sloganLabel}
                 <div class="fn-right">
-                    <#if footerBeiAnHao != ''>
-                        <a href="http://www.miitbeian.gov.cn/" target="_blank">${footerBeiAnHao}</a> •
-                    </#if>
-                    © 2012-present <a href="https://b3log.org" target="_blank">B3log 开源</a> •
-                    <a href="https://b3log.org/sym" target="_blank">Sym</a>
-                ${version}
+                    © 2022-present
+                    • <a href="https://b3log.org/sym" target="_blank">Sym</a> ${version}
                 </div>
             </div>
         </div>
