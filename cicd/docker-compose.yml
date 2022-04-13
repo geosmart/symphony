@@ -1,0 +1,14 @@
+version: '3'
+services:
+  nocodb:
+    image: registry.cn-hangzhou.aliyuncs.com/geosamrt/symphony:latest
+    container_name: symphony
+    restart: always
+    environment:
+      RUNTIME_DB: "MYSQL"
+      JDBC_USERNAME: root
+      JDBC_PASSWORD: "xxx"
+      JDBC_DRIVER: "com.mysql.cj.jdbc.Driver"
+      JDBC_URL: "jdbc:mysql://127.0.0.1:13306/symphony?useUnicode=yes&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai"
+    ports:
+      - 6807:8080
